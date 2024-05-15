@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn> <!--Disable the compiler warnings if not all members are documented-->
+
+    <PackageId>Mailtrap.SDK</PackageId>
+    <Version>0.0.2</Version>
+    <Authors>Volodymyr Kulish</Authors>
+    <Company>Volodymyr Kulish</Company>
+    <Title>Unofficial Mailtrap .NET SDK </Title>
+    <PackageDescription>This Nuget package offers integration with the official API for Mailtrap</PackageDescription>
+    <RepositoryUrl>https://github.com/vovanreksi2/Railsware_TaskTest</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http.Resilience" Version="8.4.0" />
+  </ItemGroup>
+
+</Project>
