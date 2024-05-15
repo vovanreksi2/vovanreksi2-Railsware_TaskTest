@@ -9,7 +9,7 @@
     <NoWarn>$(NoWarn);CS1591</NoWarn> <!--Disable the compiler warnings if not all members are documented-->
 
     <PackageId>Mailtrap.SDK</PackageId>
-    <Version>0.0.2</Version>
+    <Version>0.0.3</Version>
     <Authors>Volodymyr Kulish</Authors>
     <Company>Volodymyr Kulish</Company>
     <Title>Unofficial Mailtrap .NET SDK </Title>
